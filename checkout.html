@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <script
+      src="https://kit.fontawesome.com/eaec582714.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Homepage</title>
+  </head>
+  <body>
+    <header>
+      <section class="banner">
+        <img src="images/adoptadog-logo.svg" alt="" width="20%" />
+        <h1>Seattle's premiere dog adoption agency</h1>
+      </section>
+      <section class="checkout">
+        <img src="images/cart-icon.svg" alt="" width="3%" /> $1234.56
+        <button><a href="checkout.html">checkout</a></button>
+      </section>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dogs.html">Dogs</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Checkout</h2>
+      <form>
+        <section class="name">
+          <label for="name">Name</label><br />
+          <input type="text" name="name" id="name" required /><br />
+        </section>
+
+        <section class="email">
+          <label for="email">Email Address</label><br />
+          <input type="email" name="email" id="email" required /><br />
+        </section>
+
+        <section class="street-address">
+          <label for="street-address">Street Address</label><br />
+          <input
+            type="text"
+            name="street-address"
+            id="street-address"
+            required
+          /><br />
+        </section>
+
+        <section class="address">
+          <label for="city">City</label>
+          <label for="state">State</label>
+          <label for="zip-code">Zip Code</label><br />
+          <input type="text" name="city" id="city" required />
+          <input type="text" name="state" id="state" required />
+          <input type="text" name="zip-code" id="zip-code" required />
+        </section>
+
+        <section class="first-time-adopter">
+          <label for="first-time-adopter">First Time Adopter?</label><br />
+          <input type="radio" name="first-time-adopter" id="yes" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" name="first-time-adopter" id="no" value="no" />
+          <label for="no">No</label>
+        </section>
+
+        <section class="pickup-location">
+          <label for="pickup-location">Pickup Location</label><br />
+          <input
+            type="text"
+            name="pickup-location"
+            id="pickup-location"
+            required
+          />
+        </section>
+
+        <section class="dogs-adopted">
+          <label for="dogs-adopted">Dogs Adopted</label>
+
+          <div class="checkout-dog-card">
+            <img src="images/lucas-checkout.jpg" alt="" width="5%" />
+            <h4>Lucas</h4>
+            <p><b>Cost to Adopt:</b> $123.45</p>
+          </div>
+
+          <div class="checkout-dog-card">
+            <img src="images/duffy-checkout.jpg" alt="" width="5%" />
+            <h4>Duffy</h4>
+            <p><b>Cost to Adopt:</b> $123.45</p>
+          </div>
+        </section>
+
+        <section class="total-cost">
+          <label for="total-cost">Total Adoption Cost</label>
+          <p>$1234.56</p>
+        </section>
+
+        <input type="submit" value="submit" />
+      </form>
+    </main>
+
+    <footer>
+      <img src="images/adoptadog-logo.svg" alt="" width="20%" />
+
+      <p>
+        Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque
+        invenienihil imaximu scideru ptistiusam consequunt
+      </p>
+
+      <ul class="footer-link">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dogs.html">Dogs</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <ul class="copyright">
+        <li>&#169; 2018 Adoptadog, LLC</li>
+        <li>|</li>
+        <li>Seattle, WA</li>
+      </ul>
+    </footer>
+  </body>
+</html>
