@@ -1,8 +1,271 @@
-html {
-    margin: 0;
+:root {
+  --color-main: #093c60;
+  --color-sub-1: #81b741;
+  --color-sub-2: #ffffff;
+  --color-sub-3: #ececec;
+  --color-text-1: gray;
 }
 
-body {
-    margin: 0;
-    background-color: rgba(0, 0, 252, 0.407);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "comic sans";
+}
+
+header {
+  width: 100%;
+  height: 400px;
+
+  background: var(--color-main);
+  background-image: url(images/header-image.jpg);
+  background-size: cover;
+
+  color: var(--color-sub-2);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner img {
+  width: 85%;
+  margin: 5rem 5rem 0;
+}
+
+.banner h1 {
+  color: var(--color-sub-1);
+  font-family: "comic sans";
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 5rem;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 5rem;
+  margin-right: 5rem;
+}
+.shopping-cart {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: end;
+}
+.shopping-cart img {
+  width: 6%;
+}
+
+.checkout button {
+  border-radius: 0.2rem;
+  color: var(--color-sub-2);
+  background-color: var(--color-sub-1);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 0.2rem 2.2rem;
+  margin-top: 0.5rem;
+}
+
+nav ul {
+  background-color: var(--color-sub-3);
+  display: flex;
+  list-style: none;
+  padding: 1.5rem 10rem;
+  font-weight: bold;
+}
+
+nav ul li + li:before {
+  margin: 1rem;
+  content: "/\00a0";
+  color: var(--color-main);
+}
+
+nav ul li a {
+  font-size: 1.2rem;
+  color: var(--color-main);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+main h2 {
+  align-self: flex-start;
+  color: var(--color-main);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+}
+
+.intro-image {
+  flex: 2;
+}
+
+.intro-image img {
+  width: 80%;
+}
+
+.intro-paragraph {
+  flex: 2;
+}
+
+.intro-paragraph h2 {
+  color: var(--color-main);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.intro-paragraph p {
+  color: var(--color-sub-4);
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+}
+
+.adopt-lists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.dog-card {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.dog-card h3 {
+  padding: 0 0.8rem;
+  color: var(--color-main);
+  font-size: 1.5rem;
+}
+
+.dog-card p {
+  padding: 0 0.8rem;
+}
+
+.adopt-lists button {
+  margin: 0.5rem 1rem 1rem;
+  padding: 0.5rem 1rem;
+  color: var(--color-sub-2);
+  background-color: var(--color-sub-1);
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.see-more-dogs button {
+  padding: 0.5rem 3rem;
+  font-size: 1.2rem;
+  color: var(--color-main);
+  font-weight: bold;
+  border: none;
+  background-color: var(--color-sub-3);
+  border-radius: 0.2rem;
+  margin: 1rem 0 2rem;
+  cursor: pointer;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-card {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.blog-img {
+  flex: 1;
+  padding-right: 3rem;
+}
+
+.blog-paragraph {
+  flex: 2;
+  align-content: center;
+}
+
+.blog-paragraph h3 {
+  color: var(--color-main);
+  font-size: 1.5rem;
+}
+
+.blog-paragraph p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--color-text-1);
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: var(--color-main);
+
+  text-align: center;
+  font-size: 1rem;
+  color: var(--color-sub-2);
+  padding: 3rem 10rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+footer img {
+  width: 30%;
+}
+
+footer p {
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.footer-link li + li:before {
+  margin: 0.5rem;
+  content: "/\00a0";
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+.copyright li + li:before {
+  margin: 1rem;
+  content: "|\00a0";
 }

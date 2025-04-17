@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <script
       src="https://kit.fontawesome.com/eaec582714.js"
       crossorigin="anonymous"
@@ -12,14 +19,21 @@
   </head>
   <body>
     <header>
-      <section class="banner">
-        <img src="images/adoptadog-logo.svg" alt="" width="20%" />
+      <div class="banner">
+        <img src="images/adoptadog-logo.svg" alt="adopt a dog" />
         <h1>Seattle's premiere dog adoption agency</h1>
-      </section>
-      <section class="checkout">
-        <img src="images/cart-icon.svg" alt="" width="3%" /> $1234.56
-        <button onclick="window.location.href='checkout.html'">Checkout</button>
-      </section>
+      </div>
+      <div class="checkout">
+        <div class="shopping-cart">
+          <img src="images/cart-icon.svg" alt="" />
+          <p>$1234.56</p>
+        </div>
+        <div>
+          <button onclick="window.location.href='checkout.html'">
+            Checkout
+          </button>
+        </div>
+      </div>
     </header>
 
     <nav>
@@ -32,10 +46,10 @@
 
     <main>
       <section class="introduction">
-        <div>
+        <div class="intro-image">
           <img src="images/home-intro.jpg" alt="" />
         </div>
-        <div>
+        <div class="intro-paragraph">
           <h2>Adopt A Dog</h2>
           <p>
             Iduciendisite quo magnatem iuntum quid quaest ea am,tenderumet adis
@@ -148,11 +162,11 @@
     </main>
 
     <footer>
-      <img src="images/adoptadog-logo.svg" alt="" width="20%" />
+      <img src="images/adoptadog-logo.svg" alt="adopt a dog" />
 
       <p>
-        Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque
-        invenienihil imaximu scideru ptistiusam consequunt
+        Aborpos nisto inci tet aut que volupti beruptiberro to ex <br />
+        esseque invenienihil imaximu scideru ptistiusam consequunt
       </p>
 
       <ul class="footer-link">
@@ -163,7 +177,6 @@
 
       <ul class="copyright">
         <li>&#169; 2018 Adoptadog, LLC</li>
-        <li>|</li>
         <li>Seattle, WA</li>
       </ul>
     </footer>
