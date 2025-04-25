@@ -97,7 +97,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 main h2 {
@@ -132,18 +132,20 @@ main h2 {
 
 .intro-paragraph p {
   color: var(--color-sub-4);
-  line-height: 1.6rem;
-  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  color: var(--color-text-1);
 }
 
 .adopt-lists {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  justify-content: space-between;
+  gap: 4rem;
 }
 
 .dog-card {
-  width: 22%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
