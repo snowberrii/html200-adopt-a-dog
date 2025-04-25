@@ -40,8 +40,7 @@ The platform promotes ethical adoption practices, encourages rescue over breedin
 
 ## 🚀 Tech Stack
 
-- **Frontend:** HTML + CSS + JavaScript 
-- **Backend:** Node.js + Express    
+- **Frontend:** HTML + CSS + JavaScript  
 - **Hosting:** Github
 
 ---
