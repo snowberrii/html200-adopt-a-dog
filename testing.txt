@@ -1,0 +1,69 @@
+USER PERSONA
+
+Name: Emily Horton
+Age: 32
+Occupation: Elementary School Teacher
+Location: Portland, Oregon
+Living Situation: Rents a pet-friendly one-bedroom apartment with a small fenced yard
+Lifestyle: Active and nurturing; enjoys early mornings, nature walks, and quiet evenings reading or planning lessons
+Personality: Caring, responsible, patient, and organized
+Experience with Pets: Grew up with dogs, has pet-sat for friends
+Motivation to Adopt: Looking for companionship and a way to share her nurturing nature outside the classroom
+
+-----------------------
+
+PERSONA DEVICES USED
+
+Laptop: MacBook Air – for lesson planning, emails, and streaming
+Desktop: Windows 11 PC – used at home for grading, printing school materials, and managing documents
+Smartphone: iPhone 14 – for communication, pet care apps, and photography
+Tablet: iPad with Apple Pencil – for browsing dog adoption platforms, interactive teaching prep
+Smartwatch: Apple Watch – tracks walks, health stats, and sets reminders for dog care
+Smart Home Devices:
+Pet camera (used during school hours to monitor her future dog)
+Smart speaker (for music, reminders, and voice-activated help with routines)
+
+-----------------------
+
+TESTING PROCESS
+
+To ensure a smooth and consistent user experience across devices, ADOPTADOG underwent thorough testing on multiple browsers and platforms. The goal was to confirm compatibility, responsiveness, accessibility, and performance.
+
+### 🔧 Browsers Tested
+
+- **Google Chrome** (latest versions on Windows, macOS, Android)  
+- **Mozilla Firefox** (latest versions on Windows and macOS)  
+- **Microsoft Edge** (Windows 11)  
+- **Safari** (macOS, iOS)  
+
+> Note: Internet Explorer is explicitly not supported due to lack of modern feature support.
+
+### 📱 Platforms Tested
+
+- **Windows 11 (Desktop)**  
+- **macOS Monterey & Ventura (Desktop)**  
+- **iOS 16+ (iPhone 11, 13)**  
+- **Android 12+ (Pixel 5, Samsung Galaxy)**  
+- **Tablets**: iPadOS (iPad Air), Android Tablet (Samsung Tab S6)
+
+### 🧪 Testing Methods
+
+- **Manual UI Testing**: Verified layout consistency, image rendering, responsiveness, and interactive components on each platform.  
+- **Functional Testing**: checkout, browsed dogs, submitted adoption applications, and tested forms across devices.  
+- **Responsive Design Testing**: Used Chrome DevTools device toolbar and physical devices.  
+- **Accessibility Testing**: still on going
+
+## 🔄 Changes Made After Testing
+
+- 🐛 **Fixed ....
+- 🧭 **Improved ....
+
+
+
+-----------------------
+
+Testing is ongoing and feedback is welcome! You can submit issues
+
+ 
+
+
