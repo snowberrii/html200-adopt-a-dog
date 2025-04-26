@@ -12,7 +12,6 @@
 }
 
 html {
-  width: 100vw;
   font-family: "comic sans";
   background-color: var(--color-sub-2);
 }
@@ -230,18 +229,23 @@ footer ul li a:hover {
 
   .banner img {
     width: 15em;
-    margin: 3em 3em 0;
+    margin: 5em 2em 0;
   }
 
   .banner h1 {
     font-size: 1em;
-    margin-left: 3em;
+    margin-left: 2em;
   }
 
   .checkout {
     margin-top: 3em;
-    margin-right: 3em;
+    margin-right: 5em;
   }
+
+  nav ul {
+  padding: 1.5em 2em;
+  
+}
 
   footer {
     padding: 3em 5em;
