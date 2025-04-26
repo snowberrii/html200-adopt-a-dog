@@ -9,7 +9,12 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+html {
+  width: 100vw;
   font-family: "comic sans";
+  background-color: var(--color-sub-2);
 }
 
 header {
@@ -212,6 +217,10 @@ footer ul li a:hover {
     padding: 0.2em 1.8em;
     margin-top: 1em;
   }
+
+  nav ul {
+    padding: 1.5em 5em;
+  }
 }
 
 @media (max-width: 576px) {
@@ -234,6 +243,9 @@ footer ul li a:hover {
     margin-right: 3em;
   }
 
+  footer {
+    padding: 3em 5em;
+  }
   footer img {
     width: 15em;
   }
@@ -247,11 +259,11 @@ footer ul li a:hover {
   }
 
   .copyright li + li:before {
-    margin: 0.5rem;
+    margin: 0.4rem;
     content: "|\00a0";
   }
 
   .copyright {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
 }

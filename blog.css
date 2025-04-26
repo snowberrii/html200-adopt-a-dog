@@ -74,4 +74,17 @@
   main h2 {
     font-size: 1.5em;
   }
+  .blog-card {
+    align-items: center;
+  }
+  .blog-img {
+    padding: 0;
+  }
+  .blog-img img {
+    width: 16em;
+  }
+
+  main h3 {
+    text-align: center;
+  }
 }
