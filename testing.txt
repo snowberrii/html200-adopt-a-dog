@@ -62,7 +62,7 @@ To ensure a smooth and consistent user experience across devices, ADOPTADOG unde
 
 -----------------------
 
-Testing is ongoing and feedback is welcome! You can submit issues
+Testing is ongoing and feedback is welcome!
 
  
 
