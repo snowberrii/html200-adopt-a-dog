@@ -11,8 +11,9 @@ form {
 input {
   display: block;
   border: solid 2px rgba(128, 128, 128, 0.25);
-  height: 4em;
+  height: 3em;
   width: 100%;
+  font-size: 0.8em;
 }
 
 label {

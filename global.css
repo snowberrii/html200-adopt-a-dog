@@ -243,6 +243,10 @@ footer ul li a:hover {
     margin-right: 2em;
   }
 
+  .shopping-cart {
+    margin-top: 0;
+  }
+
   nav ul {
     padding: 1.5em 2em;
   }
