@@ -73,6 +73,7 @@ textarea {
   border-radius: 0.2em;
   cursor: pointer;
   height: 3em;
+  padding: 0;
 }
 
 @media (max-width: 1200px) {
