@@ -23,6 +23,10 @@
   padding: 0 0.8em;
 }
 
+.dog-card img {
+  cursor: pointer;
+}
+
 .adopt-lists button {
   margin: 0.5em 1em 1em;
   padding: 0.5em 1em;
