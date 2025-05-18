@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="global.css" />
-    <link rel="stylesheet" href="dogs.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/dogs.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,8 +26,8 @@
       </div>
       <div class="checkout">
         <div class="shopping-cart">
-          <img src="images/cart-icon.svg" alt="" />
-          <p>$ <span class="total-adopt-fee">0.00</span></p>
+          <img src="images/cart-icon.svg" />
+          <p>$ <span class="total-fee">0.00</span></p>
         </div>
         <div>
           <button class="checkout-button">Checkout</button>
@@ -46,8 +46,8 @@
     <main>
       <h2>Here are all of our Dogs!</h2>
       <section class="adopt-lists">
-        <article class="dog-card">
-          <img src="images/murphy-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="murphy">
+          <img src="images/murphy-card.jpg" />
           <h3 class="dog-name">Murphy</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -55,11 +55,11 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/poppy-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="poppy">
+          <img src="images/poppy-card.jpg" />
           <h3 class="dog-name">Poppy</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -67,11 +67,11 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/jack-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="jack">
+          <img src="images/jack-card.jpg" />
           <h3 class="dog-name">Jack</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -79,11 +79,11 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/duffy-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="duffy">
+          <img src="images/duffy-card.jpg" />
           <h3 class="dog-name">Duffy</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -91,11 +91,11 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/lucas-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="lucas">
+          <img src="images/lucas-card.jpg" />
           <h3 class="dog-name">Lucas</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -103,23 +103,23 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/jack-card.jpg" alt="" />
-          <h3 class="dog-name">Jack</h3>
+        <article class="dog-card" data-dog-id="jake">
+          <img src="images/jake-card.jpg" />
+          <h3 class="dog-name">Jake</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
             <span class="breed">Corrum</span> volorit iandae nimaxim cum restia
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/angus-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="angus">
+          <img src="images/angus-card.jpg" />
           <h3 class="dog-name">Angus</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -127,11 +127,11 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/violet-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="violet">
+          <img src="images/violet-card.jpg" />
           <h3 class="dog-name">Violet</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -139,11 +139,11 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/piper-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="piper">
+          <img src="images/piper-card.jpg" />
           <h3 class="dog-name">Piper</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -151,11 +151,11 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/maximus-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="maximus">
+          <img src="images/maximus-card.jpg" />
           <h3 class="dog-name">Maximus</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -163,11 +163,11 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/lucas-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="luna">
+          <img src="images/lucas-card.jpg" />
           <h3 class="dog-name">Luna</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -175,11 +175,11 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
 
-        <article class="dog-card">
-          <img src="images/stella-card.jpg" alt="" />
+        <article class="dog-card" data-dog-id="stella">
+          <img src="images/stella-card.jpg" />
           <h3 class="dog-name">Stella</h3>
           <p><b>Cost to Adopt:</b> $<span class="adopt-fee">123.45</span></p>
           <p>
@@ -187,7 +187,7 @@
             volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui
             doluptae
           </p>
-          <button>Adopt</button>
+          <button class="adopt-btn">Adopt</button>
         </article>
       </section>
     </main>
@@ -211,6 +211,6 @@
         <li>Seattle, WA</li>
       </ul>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js" charset="UTF-8"></script>
   </body>
 </html>
