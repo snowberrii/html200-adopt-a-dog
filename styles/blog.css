@@ -1,4 +1,4 @@
-.blog-container {
+#blog-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,56 +6,45 @@
 
 .blog-card {
   display: flex;
+  align-items: center;
   margin-bottom: 3em;
 }
 
 .blog-img {
   flex: 1;
+  align-items: center;
   padding-right: 3em;
+  height: 100%;
 }
 
-.blog-img img {
-  width: 25em;
-}
-
-.blog-paragraph {
+.blog-info {
   flex: 2;
   align-content: center;
 }
 
-.blog-paragraph h3 {
+.blog-info h3 {
   color: var(--color-main);
   font-size: 1.5em;
 }
 
-.blog-paragraph p {
+.blog-info p {
   font-size: 1.2em;
   line-height: 1.5em;
   color: var(--color-text-1);
   margin-top: 1em;
 }
 
-@media (max-width: 1200px) {
-  .blog-img img {
-    width: 22em;
-  }
-
-  .blog-paragraph h3 {
-    font-size: 1.3em;
-  }
-
-  .blog-paragraph p {
-    font-size: 1em;
-  }
-}
-
 @media (max-width: 992px) {
+  main {
+    gap: 0;
+  }
   .blog-card {
     flex-direction: column;
-    gap: 1em;
+    margin-top: 1em;
   }
-  .blog-img img {
-    width: 20em;
+  .blog-img {
+    padding: 0;
+    margin-bottom: 1em;
   }
 }
 
@@ -71,17 +60,9 @@
 }
 
 @media (max-width: 576px) {
-  main h2 {
-    font-size: 1.5em;
-  }
-  .blog-card {
-    align-items: center;
-  }
-  .blog-img {
-    padding: 0;
-  }
-  .blog-img img {
-    width: 16em;
+  main {
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
   main h3 {
