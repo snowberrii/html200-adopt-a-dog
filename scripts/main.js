@@ -13,3 +13,4 @@ if (moreDogsBtn) {
     window.location.href = "dogs.html";
   };
 }
+

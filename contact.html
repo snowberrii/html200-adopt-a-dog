@@ -72,16 +72,16 @@
         </div>
       </section>
 
-      <section class="contact-form">
+      <section class="contact-form" >
         <h2>Talk With Us.</h2>
-        <form>
+        <form method="post" id="contactForm">
           <div class="name-input">
-            <input type="text" placeholder="*First Name" required />
-            <input type="text" placeholder="*Last Name" required />
+            <input type="text" name="fisrtName" placeholder="*First Name" required />
+            <input type="text" name="lastName" placeholder="*Last Name" required />
           </div>
 
-          <input type="email" placeholder="*Email" required />
-          <input type="text" placeholder="Phone Number (optional)" />
+          <input type="email" name="email" placeholder="*Email" required />
+          <input type="text" name="phone" placeholder="Phone Number (optional)" />
           <textarea
             name="message"
             id="message"
@@ -112,5 +112,7 @@
       </ul>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/dogs.js"></script>
+    <script src="scripts/form-handler.js"></script>
   </body>
 </html>
