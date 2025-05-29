@@ -27,7 +27,9 @@ if (contactForm) {
     const data = getFormData(contactForm); // Get the form data
     console.log("Form Data:", data);
 
-    alert("Thank you. The form information has been received");
+    alert(
+      `Thank you ${data.firstName} for reaching out to us. We’ll be in touch with you shortly.`
+    );
 
     contactForm.reset();
   });
@@ -42,7 +44,7 @@ if (checkoutForm) {
     const data = getFormData(checkoutForm); // Get the form data
     console.log("Form Data:", data);
 
-    alert("Thank you. The form information has been received");
+    alert(`Thank you. The form information has been received`);
 
     checkoutForm.reset();
     sessionStorage.clear();
