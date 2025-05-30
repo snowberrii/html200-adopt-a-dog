@@ -1,3 +1,8 @@
+// //can also use this function for simple form
+// function getFormData(form) {
+//   return Object.fromEntries(new FormData(form).entries());
+// }
+
 //This function takes a form, extracts all the input values,
 //and puts them into a JavaScript object.
 function getFormData(form) {
@@ -24,7 +29,7 @@ const checkoutForm = document.querySelector("#checkoutForm");
 if (contactForm) {
   contactForm.addEventListener("submit", function (event) {
     event.preventDefault();
-    const data = getFormData(contactForm); // Get the form data
+    const data = getFormData(contactForm);
     console.log("Form Data:", data);
 
     alert(
@@ -36,12 +41,9 @@ if (contactForm) {
 }
 
 if (checkoutForm) {
-  // Add submit event listener to the form
-  //Normally, when a form is submitted, the page reloads or goes to another URL.
-  //so need to putprevent default
   checkoutForm.addEventListener("submit", function (event) {
     event.preventDefault();
-    const data = getFormData(checkoutForm); // Get the form data
+    const data = getFormData(checkoutForm);
     console.log("Form Data:", data);
 
     alert(`Thank you. The form information has been received`);
