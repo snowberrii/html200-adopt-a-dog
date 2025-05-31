@@ -1,12 +1,4 @@
-const dogContainer = document.getElementById("dog-container");
-
-const heading = document.createElement("h2");
-heading.textContent = "Here are all of our Dogs!";
-dogContainer.appendChild(heading);
-
-const adoptLists = document.createElement("section");
-adoptLists.classList.add("adopt-lists");
-dogContainer.appendChild(adoptLists);
+const adoptLists = document.querySelector(".adopt-lists");
 
 function createDogCard({ image, name, fee, info, breed }) {
   const dogCard = document.createElement("article");
@@ -43,5 +35,4 @@ function createDogCard({ image, name, fee, info, breed }) {
   });
 }
 
-dogData.forEach((list) => createDogCard(list));
-
+dogData.slice(0, 8).forEach((list) => createDogCard(list));
